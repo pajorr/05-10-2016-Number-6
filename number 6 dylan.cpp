@@ -9,10 +9,8 @@ void showArrPtr(int *[], int);
 
 int main()
 {
-	  int NUM_DONATIONS = 0;   // Number of donations 
-	  cout<<"enter amount of donation set i.e 15 donations : ";
-	  cin>> NUM_DONATIONS;
-	  
+	  int NUM_DONATIONS = 15;   // Number of donations 
+	 
 	int donations[NUM_DONATIONS]; 
 									 
 	int *arrPtr[NUM_DONATIONS] = { 0, 0, 0, 0, 0,                               
